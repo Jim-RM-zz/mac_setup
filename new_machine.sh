@@ -7,6 +7,7 @@
 brew install --cask google-chrome
 brew install --cask slack
 brew install --cask microsoft-teams # Micros Teams will prompt for a password to complete install
+brew install --cask microsoft-office # Will prompt for a password to complete install
 brew install --cask zoom
 brew install --cask 1password
 brew install --cask malwarebytes
