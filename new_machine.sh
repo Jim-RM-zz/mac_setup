@@ -12,6 +12,12 @@ brew install --cask zoom
 brew install --cask 1password
 brew install --cask malwarebytes
 
+# Install for plain old Teamviewer is default, but uncomment the line
+# below if you would rather install host.
+brew install --cask teamviewer
+# brew install --cask teamviewer-host
+
+
 # This is for the desktop cloud app, from in here you can then install
 # the speci Adobe apps you need to
 brew install --cask adobe-creative-cloud
@@ -24,6 +30,10 @@ brew upgrade
 
 # Removes directoires not removed with the Homebrew uninstall script
 # These don't have to be removed, but if you'd like Homebrew wiped off fresh
+# then go ahead and uncomment the below, which will remove the bits that the
+# uninstaller won't remove / catch.
+
+:'
 rm -r {
   /usr/local/.com.apple.installer.keep
   /usr/local/Frameworks/
@@ -37,3 +47,4 @@ rm -r {
   /usr/local/share/
   /usr/local/var/
   }
+'
