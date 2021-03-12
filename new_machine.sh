@@ -28,7 +28,7 @@ brew upgrade
 # Uninstall script for Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
 
-# Removes directoires not removed with the Homebrew uninstall script
+# Directoires not removed with the Homebrew uninstall script
 # These don't have to be removed, but if you'd like Homebrew wiped off fresh
 # then go ahead and uncomment the below, which will remove the bits that the
 # uninstaller won't remove / catch.
