@@ -11,6 +11,7 @@ brew install --cask microsoft-office # Will prompt for a password to complete in
 brew install --cask zoom
 brew install --cask 1password
 brew install --cask malwarebytes
+brew install --cask miro
 
 # Install for plain old Teamviewer is default, but uncomment the line
 # below if you would rather install host.
