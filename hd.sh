@@ -9,9 +9,9 @@ brew install --cask slack
 brew install --cask microsoft-teams # Micros Teams will prompt for a password to complete install
 brew install --cask microsoft-office # Will prompt for a password to complete install
 brew install --cask zoom
-brew install --cask 1password
+#brew install --cask 1password
 brew install --cask malwarebytes
-brew install --cask miro
+#brew install --cask miro
 
 # Install for plain old Teamviewer is default, but uncomment the line
 # below if you would rather install host.
@@ -27,7 +27,7 @@ brew install --cask adobe-creative-cloud
 brew upgrade
 
 # Uninstall script for Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
 
 # Directoires not removed with the Homebrew uninstall script
 # These don't have to be removed, but if you'd like Homebrew wiped off fresh
