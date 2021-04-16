@@ -10,7 +10,6 @@ open -a safari 'https://m.meraki.com/?enrollment_code=057-889-4134'
 # Installs brew casks / apps
 brew install --cask google-chrome
 brew install --cask slack
-brew install --cask 1password
 brew install --cask malwarebytes
 
 # Install for plain old Teamviewer is default, but uncomment the line
