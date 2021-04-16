@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 
+open -a safari 'https://m.meraki.com/?enrollment_code=100-160-0962'
+
 # Installs Homebrew - will install xcode command line tools if missing
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Installs brew casks / apps
 brew install --cask google-chrome
 brew install --cask slack
-brew install --cask 1password
 brew install --cask malwarebytes
 brew install --cask rhino
 brew install --cask keyshot
