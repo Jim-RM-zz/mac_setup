@@ -1,1 +1,1 @@
-# test_install
+# mac_setup
