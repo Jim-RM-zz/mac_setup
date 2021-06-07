@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/zsh
 
 open -a safari 'https://m.meraki.com/?enrollment_code=100-160-0962'
 
