@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Opens safari to Meraki profile install
 open -a safari 'https://m.meraki.com/?enrollment_code=057-889-4134' 
@@ -29,5 +29,3 @@ brew install --cask microsoft-office # Will prompt for a password to complete in
 
 # checks / upgrades brew casks
 brew upgrade
-
-
