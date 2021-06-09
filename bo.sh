@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 open -a safari 'https://m.meraki.com/?enrollment_code=100-160-0962'
 
