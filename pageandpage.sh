@@ -19,13 +19,13 @@ brew install --cask teamviewer
 
 # This is for the desktop cloud app, from in here you can then install
 # the speci Adobe apps you need to
-brew install --cask adobe-creative-cloud
+#brew install --cask adobe-creative-cloud
 
 # These installs below will prompt / require a password to install
-brew install --cask zoom
+#brew install --cask zoom
 brew install --cask microsoft-teams # Micros Teams will prompt for a password to complete install
 brew install --cask microsoft-office # Will prompt for a password to complete install
 
 
 # checks / upgrades brew casks
-brew upgrade
+#brew upgrade
